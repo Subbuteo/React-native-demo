@@ -1,0 +1,57 @@
+PODS:
+  - React/Core (0.44.3):
+    - React/cxxreact
+    - Yoga (= 0.44.3.React)
+  - React/cxxreact (0.44.3):
+    - React/jschelpers
+  - React/jschelpers (0.44.3)
+  - React/RCTActionSheet (0.44.3):
+    - React/Core
+  - React/RCTAnimation (0.44.3):
+    - React/Core
+  - React/RCTGeolocation (0.44.3):
+    - React/Core
+  - React/RCTImage (0.44.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.44.3):
+    - React/Core
+  - React/RCTNetwork (0.44.3):
+    - React/Core
+  - React/RCTSettings (0.44.3):
+    - React/Core
+  - React/RCTText (0.44.3):
+    - React/Core
+  - React/RCTVibration (0.44.3):
+    - React/Core
+  - React/RCTWebSocket (0.44.3):
+    - React/Core
+  - Yoga (0.44.3.React)
+
+DEPENDENCIES:
+  - React/Core (from `./reactnative/node_modules/react-native`)
+  - React/RCTActionSheet (from `./reactnative/node_modules/react-native`)
+  - React/RCTAnimation (from `./reactnative/node_modules/react-native`)
+  - React/RCTGeolocation (from `./reactnative/node_modules/react-native`)
+  - React/RCTImage (from `./reactnative/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./reactnative/node_modules/react-native`)
+  - React/RCTNetwork (from `./reactnative/node_modules/react-native`)
+  - React/RCTSettings (from `./reactnative/node_modules/react-native`)
+  - React/RCTText (from `./reactnative/node_modules/react-native`)
+  - React/RCTVibration (from `./reactnative/node_modules/react-native`)
+  - React/RCTWebSocket (from `./reactnative/node_modules/react-native`)
+  - Yoga (from `./reactnative/node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "./reactnative/node_modules/react-native"
+  Yoga:
+    :path: "./reactnative/node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 6361345ebeb769a929e10a06baf0c868d6d03ad5
+  Yoga: c90474ca3ec1edba44c97b6c381f03e222a9e287
+
+PODFILE CHECKSUM: ca6ae554f7865853244c44a108bb309f5f270e92
+
+COCOAPODS: 1.2.1
